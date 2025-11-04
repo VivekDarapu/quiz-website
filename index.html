@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>What Salt Are You?</title>
+<meta name="description" content="Quick personality quiz — What Salt Are You?"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="app">
+<h1 id="title">What Salt Are You?</h1>
+<div id="intro" class="card">
+<p>Answer a few quick questions to find your salt identity.</p>
+<button id="startBtn">Get started</button>
+</div>
+<div id="quiz" class="card hidden" aria-hidden="true">
+<form id="quizForm" autocomplete="off">
+<fieldset id="questionField"></fieldset>
+<div class="controls">
+<button type="button" id="prevBtn" class="nav">Previous</button>
+<button type="button" id="nextBtn" class="nav">Next</button>
+</div>
+</form>
+</div>
+<div id="result" class="card hidden" aria-hidden="true">
+<h2 id="resultTitle"></h2>
+<img id="resultImg" alt=""/>
+<p id="resultText"></p>
+<div class="share">
+<a id="shareTwitter" target="_blank" rel="noopener">Share on Twitter</a>
+<button id="retakeBtn">Retake</button>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
