@@ -1,11 +1,9 @@
-# Quiz Website - What Salt Are You?
-
+# Quiz Website - What Personality Type Are You?
 An interactive personality quiz website built with vanilla HTML, CSS, and JavaScript. This project is inspired by popular quiz formats and provides a fun, engaging user experience.
 
 ## Description
 
-Interactive quiz website - What Salt Are You? personality quiz. Users answer a series of multiple-choice questions to discover their "salt personality" type.
-
+Interactive personality quiz website that helps users discover their personality type. Users answer a series of multiple-choice questions to find out if they're a Leader, Explorer, Architect, or Dreamer based on their energy and planning style.
 ## Features
 
 - Single-page interactive quiz interface
